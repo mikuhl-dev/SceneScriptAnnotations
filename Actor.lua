@@ -1,7 +1,7 @@
 ---@meta
 
----@class Actor
-Actor = {}
+---@class Actor: UnitDisplay
+Actor = setmetatable({}, UnitDisplay.__meta)
 Actor.__meta = { __index = Actor }
 
 ---@param listenFreq number
