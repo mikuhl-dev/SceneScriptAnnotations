@@ -8,7 +8,6 @@
 ---@operator mul(Vector): Vector
 ---@operator sub(Vector): Vector
 ---@operator unm(Vector): Vector
-
 Vector = {}
 Vector.__meta = {
     __add = Vector.Add,
@@ -22,9 +21,9 @@ Vector.__meta = {
     __unm = Vector.Neg,
 }
 
----@param _x number
----@param _y number
----@param _z number
+---@param _x? number
+---@param _y? number
+---@param _z? number
 ---@return Vector
 function Vector:New(_x, _y, _z) end
 
