@@ -1,7 +1,8 @@
 ---@meta
 
 ---@class Scene
-local Scene = {}
+Scene = {}
+Scene.__meta = { __index = Scene }
 
 ---@param unk1 number
 ---@param unk2 Vector
