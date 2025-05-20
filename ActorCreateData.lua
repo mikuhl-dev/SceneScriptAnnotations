@@ -17,7 +17,7 @@
 ---@field scale number
 ---@field facingOffset number
 ---@field name string
----@field transform Transform,
+---@field transform Transform
 ---@field hoverHeight number
 ---@field groundSnap boolean
 ---@field interactible boolean
