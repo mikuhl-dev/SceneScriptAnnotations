@@ -99,7 +99,7 @@ function UnitDisplay:HasPendingMissiles(unk1) end
 
 ---@param unk1 number
 ---@return boolean
-function UnitDisplay:HasPendingOrInflightMissiles(unk1) end
+function UnitDisplay:HasPendingOrInFlightMissiles(unk1) end
 
 function UnitDisplay:HasPreCastSpellEffect() end
 
