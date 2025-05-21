@@ -1,7 +1,7 @@
 ---@meta
 
 ---@enum MoveRotControl
-MovePosControl = {
+MoveRotControl = {
     None = 0,
     Angle = 1,
     AngleAbs = 2,
