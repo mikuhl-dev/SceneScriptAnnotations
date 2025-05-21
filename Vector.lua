@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class Vector
+---@field x number
+---@field y number
+---@field z number
 ---@operator add(Vector): Vector
 ---@operator concat(string): string
 ---@operator div(Vector): Vector
