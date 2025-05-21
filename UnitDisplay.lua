@@ -119,7 +119,7 @@ function UnitDisplay:IsPlayingSpellCastAnim() end
 ---@return boolean
 function UnitDisplay:IsPlayingSpellPreCastAnim() end
 
----@param unk1 AnimKits
+---@param unk1 AnimKit
 ---@param unk2 boolean
 ---@param unk3 Animation
 function UnitDisplay:PlayAnimKit(unk1, unk2, unk3) end
@@ -128,7 +128,7 @@ function UnitDisplay:PlayAnimKit(unk1, unk2, unk3) end
 function UnitDisplay:PlayAnimKitEx(unk1) end
 
 ---@param unk1 number
-function UnitDisplay:PlayMusic() end
+function UnitDisplay:PlayMusic(unk1) end
 
 ---@param unk1 number
 ---@param unk2 boolean
