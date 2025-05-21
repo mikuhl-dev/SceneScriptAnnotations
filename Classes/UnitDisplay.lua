@@ -119,9 +119,10 @@ function UnitDisplay:IsPlayingSpellCastAnim() end
 ---@return boolean
 function UnitDisplay:IsPlayingSpellPreCastAnim() end
 
----@param unk1 AnimKit
+---@param unk1 AnimKits
 ---@param unk2 boolean
 ---@param unk3 Animation
+---@return AnimKit
 function UnitDisplay:PlayAnimKit(unk1, unk2, unk3) end
 
 ---@param unk1 AnimKitData
@@ -192,7 +193,7 @@ function UnitDisplay:SetTextEffectScale(unk1, unk2) end
 ---@param unk3 number
 function UnitDisplay:SetTextEffectTransform(unk1, unk2, unk3) end
 
----@param unk1 AnimKit
+---@param unk1 AnimKits
 function UnitDisplay:StopAnimKit(unk1) end
 
 ---@param unk1 number

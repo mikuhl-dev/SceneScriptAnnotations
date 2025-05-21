@@ -119,7 +119,7 @@ function Actor:MoveToAbs(unk1, unk2) end
 ---@param unk2 number
 function Actor:MoveToRel(unk1, unk2) end
 
----@param animKitID AnimKit
+---@param animKitID AnimKits
 function Actor:PlayLoopingAnimKit(animKitID) end
 
 ---@param anim Animation
@@ -131,7 +131,7 @@ function Actor:PlayLoopingSplitBodyAnim(anim) end
 ---@param anim Animation
 function Actor:PlayLoopingUpperBodyAnim(anim) end
 
----@param animKitID AnimKit
+---@param animKitID AnimKits
 function Actor:PlayOneShotAnimKit(animKitID) end
 
 ---@param anim Animation
@@ -309,7 +309,7 @@ function Actor:WaitMoveToAbs(unk1, unk2) end
 ---@param unk2 number
 function Actor:WaitMoveToRel(unk1, unk2) end
 
----@param animKitID AnimKit
+---@param animKitID AnimKits
 function Actor:WaitPlayOneShotAnimKit(animKitID) end
 
 ---@param anim Animation

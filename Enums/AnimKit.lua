@@ -1,6 +1,6 @@
 ---@meta
 
----@enum AnimKit
+---@enum AnimKits
 AnimKits = {
     OneShotSplitBody     = 2127,
     OneShotUpperBody     = 2128,
