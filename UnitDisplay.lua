@@ -105,7 +105,7 @@ function UnitDisplay:HasPreCastSpellEffect() end
 
 ---@param unk1 number
 ---@return boolean
-function UnitDisplay:HasSpellEffect() end
+function UnitDisplay:HasSpellEffect(unk1) end
 
 ---@return boolean
 function UnitDisplay:IsPlayingCombatAction() end
