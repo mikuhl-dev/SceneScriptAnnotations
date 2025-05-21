@@ -22,6 +22,6 @@
 MoveData = {}
 MoveData.__meta = { __index = MoveData }
 
----@param numPoints number
+---@param numPoints? number
 ---@return MoveData
 function MoveData:Default(numPoints) end
