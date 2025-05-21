@@ -38,8 +38,8 @@ function Vector:ToString() end
 ---@return Vector
 function Vector.Add(a, b) end
 
----@param a Vector|string
----@param b Vector|string
+---@param a Vector
+---@param b Vector
 ---@return string
 function Vector.Concat(a, b) end
 
