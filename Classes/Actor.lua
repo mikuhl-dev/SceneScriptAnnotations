@@ -325,5 +325,5 @@ function Actor:WaitReadyToDisplay() end
 
 function Actor:WaitRightClick() end
 
----@param soundKit number
+---@param soundKit SoundKit
 function Actor:WaitSoundKitComplete(soundKit) end

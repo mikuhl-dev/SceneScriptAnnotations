@@ -111,7 +111,7 @@ function UnitDisplay:HasSpellEffect(unk1) end
 function UnitDisplay:IsPlayingCombatAction() end
 
 ---@return boolean
-function UnitDisplay:IsPlayingDialogueSound() end
+function UnitDisplay:IsPlayingDialogSound() end
 
 ---@return boolean
 function UnitDisplay:IsPlayingSpellCastAnim() end
@@ -133,10 +133,12 @@ function UnitDisplay:PlayMusic(unk1) end
 
 ---@param unk1 number
 ---@param unk2 boolean
+---@return SoundKit
 function UnitDisplay:PlaySoundKit(unk1, unk2) end
 
 ---@param unk1 number
 ---@param unk2 boolean
+---@return SoundKit
 function UnitDisplay:PlaySoundKitStereo(unk1, unk2) end
 
 ---@param unk1 number
