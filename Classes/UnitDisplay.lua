@@ -192,7 +192,7 @@ function UnitDisplay:SetTextEffectScale(unk1, unk2) end
 
 ---@param unk1 number
 ---@param unk2 Transform
----@param unk3 number
+---@param unk3? number
 function UnitDisplay:SetTextEffectTransform(unk1, unk2, unk3) end
 
 ---@param unk1 AnimKits

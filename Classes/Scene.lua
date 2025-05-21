@@ -247,6 +247,7 @@ function Scene:ShouldWaitForSmoothPhase(unk1) end
 function Scene:SpawnActivePlayerCloneActor(unk1, unk2) end
 
 ---@param unk1 ActorCreateData
+---@return Actor
 function Scene:SpawnActor(unk1) end
 
 ---@param unk1 ActorCreateData
