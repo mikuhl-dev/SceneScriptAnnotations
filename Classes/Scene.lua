@@ -4,6 +4,9 @@
 Scene = {}
 Scene.__meta = { __index = Scene }
 
+---@type Scene
+scene = setmetatable({}, Scene.__meta)
+
 ---@param unk1 number
 ---@param unk2 Vector
 ---@param unk3 Actor
