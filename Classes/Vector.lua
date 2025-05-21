@@ -55,12 +55,12 @@ function Vector.CrossProductOfUnitVectors(a, b) end
 
 ---@param a Vector
 ---@param b Vector
----@return Vector
+---@return number
 function Vector.Dist(a, b) end
 
 ---@param a Vector
 ---@param b Vector
----@return Vector
+---@return number
 function Vector.DistXY(a, b) end
 
 ---@param a Vector
