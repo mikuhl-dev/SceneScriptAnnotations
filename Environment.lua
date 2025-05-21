@@ -10,12 +10,6 @@ function AddToAnimTable(subTable) end
 ---@return Vector
 function ApplyMatrixToVectorPoint(matrixA, vector) end
 
----@class CreatureID: number
-
----@param id number
----@return CreatureID
-function cid(id) end
-
 ---@param M number[][]
 ---@return number[][]
 function CopyMatrix(M) end
@@ -43,29 +37,11 @@ function CreateTranslationMatrix(deltaX, deltaY, deltaZ) end
 ---@param lookup? boolean
 function DEBUG_TABLE(table, depth, lookup) end
 
----@class FileDataID: number
-
----@param id number
----@return FileDataID
-function fid(id) end
-
----@class GameObjectDisplayInfoID: number
-
----@param id number
----@return GameObjectDisplayInfoID
-function gdi(id) end
-
 ---@param unk1 string
 ---@return string
 function GetGlobalString(unk1) end
 
 function GetStateLabel() end
-
----@class ItemID: number
-
----@param id number
----@return ItemID
-function iid(id) end
 
 ---@param M number[][]
 ---@return number[][]
@@ -116,12 +92,6 @@ function MultiplyMatrixes(unk1, unk2, ...) end
 ---@return number attachTime
 function RideVehicleActor(riderActor, vehicleActor, blendTime, seatAttach, seatOffset, seatAngles, rideAnim) end
 
----@class SoundID: number
-
----@param id number
----@return SoundID
-function sid(id) end
-
 ---@param riderActor Actor
 function StopRidingVehicleActorInternal(riderActor) end
 
@@ -130,7 +100,6 @@ function StopRidingVehicleActorInternal(riderActor) end
 ---@param jumpTime? number
 function WaitJumpExitVehicleActor(riderActor, exitPoint, jumpTime) end
 
----@param riderActor Actor
 ---@param vehicleActor Actor
 ---@param jumpTime? number
 ---@param seatAttach? AttachmentPoint
