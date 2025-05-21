@@ -170,7 +170,7 @@ function UnitDisplay:PlaySpellPreCastVisual(unk1) end
 function UnitDisplay:PlaySpellStateVisual(unk1) end
 
 ---@param unk1 number
-function UnitDisplay:PlaySpellStateVisualAtTargets() end
+function UnitDisplay:PlaySpellStateVisualAtTargets(unk1) end
 
 ---@param unk1 number
 ---@param unk2 Actor[]
